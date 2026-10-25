@@ -1107,7 +1107,7 @@ void loop() {
 
       break;
     }
-  }
+  -
 
   unsigned long loop_dur = micros() - loop_t0;
   if (loop_dur > max_loop_us) max_loop_us = loop_dur;
